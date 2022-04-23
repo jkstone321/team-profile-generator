@@ -7,5 +7,15 @@
 //ILL ALSO NEED TO CHECK THE ACCEPTANCE CRITERIA AND MAKE SURE I AM USING EVERYTHING THEY WANT
 //....tests.... bleh
 
-const inquirer = require("inquirer");
+const Prompt = require("./lib/Prompt");
+
+//first we need to ask them for manager stuff
+//then we ask for engineer, intern, or stop
+
+//this holds all the information that will be used to build the html later
+
+//these are all of the prompt functions
+
+const prompt = new Prompt;
+prompt.getManager();
 
