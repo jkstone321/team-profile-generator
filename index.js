@@ -8,7 +8,8 @@
 //....tests.... bleh
 
 const Prompt = require("./lib/Prompt");
-
+const Building = require("./lib/Building")
+const build = new Building();
 //first we need to ask them for manager stuff
 //then we ask for engineer, intern, or stop
 
@@ -16,6 +17,7 @@ const Prompt = require("./lib/Prompt");
 
 //these are all of the prompt functions
 
-const prompt = new Prompt;
-prompt.getManager();
+// const prompt = new Prompt;
+// prompt.getManager();
 
+build.getConsole();
